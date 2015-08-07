@@ -6,7 +6,7 @@
 // Create two instances of each.
 // Write a function that takes a ride object and a child object as arguments and determines if the child is take enough for the ride (return true or false).
 
-//classes
+//class constructors
 function Child(height, name, age){
   this.height = height;
   this.name = name;
@@ -47,7 +47,7 @@ console.log(canRide(bumperCar, julie));//true
 // Create two instances of each.
 // Write a function that takes a car object and a route object as arguments and determines if the car has enough gas to make the entire route (return true or false).
 
-//classes
+//class constructors
 function Car (mpg, gallonsInTank){
   this.mpg = mpg;
   this.gallonsInTank = gallonsInTank;
